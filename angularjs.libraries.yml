@@ -1,15 +1,78 @@
-angularjs:
+angular:
   remote: https://github.com/angular/angular.js
-  version: 1.3.0
+  version: 1.2.20
   js:
     js/angular.min.js: {}
 
-dragdrop:
+angular-animate:
+  version: 1.2.20
+  js:
+    js/angular-animate.min.js: {}
+  dependencies:
+    angularjs/angular
+
+angular-cookies:
+  version: 1.2.20
+  js:
+    js/angular-cookies.min.js: {}
+  dependencies:
+    angularjs/angular
+
+angular-dragdrop:
   remote: https://github.com/codef0rmer/angular-dragdrop
   version: 1.0.7
   js:
     js/angular-dragdrop.min.js: {}
   dependencies:
-    - angularjs/angularjs
+    - angularjs/angular
     - core/jquery.ui.draggable
     - core/jquery.ui.droppable
+
+angular-loader:
+  version: 1.2.20
+  js:
+    js/angular-loader.min.js: {}
+  dependencies:
+    angularjs/angular
+
+angular-mocks:
+  version: 1.2.20
+  js:
+    js/angular-mocks.js: {}
+  dependencies:
+    angularjs/angular
+
+angular-resource:
+  version: 1.2.20
+  js:
+    js/angular-resource.min.js: {}
+  dependencies:
+    angularjs/angular
+
+angular-route:
+  version: 1.2.20
+  js:
+    js/angular-route.min.js: {}
+  dependencies:
+    angularjs/angular
+
+angular-sanitize:
+  version: 1.2.20
+  js:
+    js/angular-sanitize.min.js: {}
+  dependencies:
+    angularjs/angular
+
+angular-scenario:
+  version: 1.2.20
+  js:
+    js/angular-scenario.js: {}
+  dependencies:
+    angularjs/angular
+
+angular-touch:
+  version: 1.2.20
+  js:
+    js/angular-touch.min.js: {}
+  dependencies:
+    angularjs/angular

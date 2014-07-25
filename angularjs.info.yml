@@ -5,5 +5,14 @@ core: 8.0
 version: VERSION
 package: Libraries
 libraries:
- - angularjs/angularjs
- - angularjs/dragdrop
+ - angularjs/angular
+ - angularjs/angular-animate
+ - angularjs/angular-cookies
+ - angularjs/angular-dragdrop
+ - angularjs/angular-loader
+ - angularjs/angular-mocks
+ - angularjs/angular-resource
+ - angularjs/angular-route
+ - angularjs/angular-sanitize
+ - angularjs/angular-scenario
+ - angularjs/angular-touch
