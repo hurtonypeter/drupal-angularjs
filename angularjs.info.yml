@@ -1,0 +1,9 @@
+name: 'Angular JS'
+type: module
+description: 'Provides an AngularJS library.'
+core: 8.0
+version: VERSION
+package: Libraries
+libraries:
+ - angularjs/angularjs
+ - angularjs/dragdrop
