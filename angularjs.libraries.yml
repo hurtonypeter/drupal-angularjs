@@ -9,14 +9,14 @@ angular-animate:
   js:
     js/angular-animate.min.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular
 
 angular-cookies:
   version: 1.2.20
   js:
     js/angular-cookies.min.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular
 
 angular-dragdrop:
   remote: https://github.com/codef0rmer/angular-dragdrop
@@ -33,46 +33,56 @@ angular-loader:
   js:
     js/angular-loader.min.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular
 
 angular-mocks:
   version: 1.2.20
   js:
     js/angular-mocks.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular
 
 angular-resource:
   version: 1.2.20
   js:
     js/angular-resource.min.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular
 
 angular-route:
   version: 1.2.20
   js:
     js/angular-route.min.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular
 
 angular-sanitize:
   version: 1.2.20
   js:
     js/angular-sanitize.min.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular
 
 angular-scenario:
   version: 1.2.20
   js:
     js/angular-scenario.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular
+
+angular-sortable:
+  version: 1.2.20
+  js:
+    js/angular-sortable.js: {}
+  dependencies:
+    - angularjs/angular
+    - core/jquery.ui.widget
+    - core/jquery.ui.mouse
+    - core/jquery.ui.sortable
 
 angular-touch:
   version: 1.2.20
   js:
     js/angular-touch.min.js: {}
   dependencies:
-    angularjs/angular
+    - angularjs/angular

@@ -15,4 +15,5 @@ libraries:
  - angularjs/angular-route
  - angularjs/angular-sanitize
  - angularjs/angular-scenario
+ - angularjs/angular-sortable
  - angularjs/angular-touch
