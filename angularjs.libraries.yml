@@ -1,5 +1,4 @@
 angular:
-  remote: https://github.com/angular/angular.js
   version: 1.2.20
   js:
     js/angular.min.js: {}
@@ -19,7 +18,6 @@ angular-cookies:
     - angularjs/angular
 
 angular-dragdrop:
-  remote: https://github.com/codef0rmer/angular-dragdrop
   version: 1.0.7
   js:
     js/angular-dragdrop.min.js: {}
