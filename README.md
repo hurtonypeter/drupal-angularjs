@@ -13,6 +13,7 @@ First of all, you have to add 'angularjs' as a dependency for your module in inf
 
 Then include the needed library into your build array, for example:
 
+```
 class MyController extends ControllerBase {
   public function myPage() {
     $build = array();
@@ -23,11 +24,13 @@ class MyController extends ControllerBase {
     return $build;
   }
 }
+```
 
 But this is not a common thing to use it alone, usually we create our own 
 javascript which use the angularjs library. This can be done via mymodule.libraries.yml.
 Define your library in this way:
 
+```
 mymodule-scripts:
   version: VERSION
   js:
@@ -37,17 +40,22 @@ mymodule-scripts:
       css/mystyle.css: {}
   dependencies:
     - angularjs/angular
+```
 
 You also have to register your library in mymodule.info.yml:
 
+```
 name: 'This is a module'
 type: module
 ...
 libraries:
  - mymodule/mymodule-scripts
+```
 
 Now you can use it in render arrays like this:
+```
 $build['#attached']['library'][] = 'mymodule/mymodule-scripts';
+```
 
 ### Available angular modules
 The angular framework has a lot of modules, now these are available is this:
